@@ -6,8 +6,8 @@
 }
 
 body{
-    /* background-color: black; */
-    /* color: white ; */
+    /* background-color: black;
+    color: white ; */
 }
 
 .container{
@@ -32,7 +32,7 @@ body{
     padding-top: 14px;
     font-weight: bold;
 }
-.home img{
+.home img {
     filter: invert(1);
 }
 
@@ -46,4 +46,17 @@ body{
     background-color: #121212;
     border-radius: 7px;
     padding: 10px;
+}
+
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 34px;
+    padding:23px 14px ;
+    font-weight: bold;
+    font-size: 13px;
+}
+.heading img{
+    filter: invert(1);
+    width: 30px;
 }
